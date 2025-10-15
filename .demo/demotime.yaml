@@ -7,14 +7,54 @@ description: |-
   By the end of this session, you’ll have a set of best practices and a toolset to transform your live demos from nerve-wracking to confidence-boosting.
 version: 2
 demos:
-  - title: Show the slide
-    description: Show a slide and highlight a function in code.
-    steps:
-      - action: openSlide
-        path: .demo/slides/intro-start.md
-  - title: Show the end slide
-    description: Show the end slide.
-    steps:
-      - action: openSlide
-        path: .demo/slides/intro-end.md
+  - id: demo-mgrrurki-dec1
+    title: Intro
+    description: Elio
+    steps: []
+  - id: demo-mgrs09db-aqn7
+    title: Start EngageTime and show QR (Make sure to start the EngageTime desktop app)
+    description: Elio
+    steps: []
+  - id: demo-mgrruw56-pd4m
+    title: Bad example of code demos
+    description: Elio
+    steps: []
+  - id: demo-mgrrzl3t-eo0u
+    title: Tell why scripting is important
+    description: Elio
+    steps: []
+  - id: demo-mgrrvcau-kr73
+    title: Who are we
+    description: Elio en Stephan
+    steps: []
+  - title: Code examples
+    description: Stephan
+    steps: []
+  - title: File examples
+    description: Stephan
+    steps: []
+  - title: Terminal examples
+    description: Stephan (Elio, je kan ook dit en dit doen)
+    steps: []
+  - title: VS code commands examples
+    description: Stephan
+    steps: []
+  - title: Slides
+    description: Stephan
+    steps: []
+  - title: The features of Demo Time (GH Actions - instruction file toevoegen met info van CollabDays Belgium)
+    description: Elio
+    steps: []
+  - title: External apps (PowerPoint, EngageTime)
+    description: Elio
+    steps: []
+  - title: History
+    description: Elio and Stephan
+    steps: []
+  - id: demo-mgrs2ajs-jgw8
+    title: 'Poll: Welke feature vinden jullie het beste?'
+    steps: []
+  - title: The end
+    description: Elio and Stephan
+    steps: []
 timer: 50
