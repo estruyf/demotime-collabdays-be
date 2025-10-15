@@ -1,0 +1,53 @@
+.slide__layout {
+  background-image: url(".demo/assets/background.png");
+  background-size: cover;
+  font-family: "Avenir Next", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500 !important;
+  color: #262626 !important;
+}
+
+.slide__layout.intro {
+  .slide__content {
+    background-image: url(".demo/assets/intro.png");
+    background-size: cover;
+
+    .slide__content__inner {
+      justify-content: start !important;
+      align-items: start !important;
+      text-align: left !important;
+      margin-top: 70px !important;
+      margin-left: 40px !important;
+    }
+
+    p {
+      font-weight: 300;
+      color: #262626;
+      font-size: 1.5rem !important;
+    }
+  }
+}
+
+.slide__layout.default {
+  .slide__content {
+    background-image: url(".demo/assets/intro.png");
+    background-size: cover;
+    color: #262626;
+
+    .slide__content__inner {
+      padding-top: 105px;
+      padding-left: 55px;
+
+      h1 {
+        font-size: 2.75rem;
+      }
+    }
+  }
+}

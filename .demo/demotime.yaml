@@ -1,0 +1,20 @@
+title: From Messy Live Coding to Demo Time Mastery
+description: |-
+  Live coding can be powerful, but it's also one of the most stressful parts of any developer presentation. One typo, one forgotten command, or a context switch gone wrong can derail your flow and distract your audience. In this session, you'll learn how to fully control your presentations with Demo Time, a Visual Studio Code extension built to make live coding smoother, safer, and more engaging.
+
+  We'll explore the most common pain points of live coding demos and walk through real-world examples of eliminating them using Demo Time. You’ll see how to script your entire demo, automate code insertions, highlight critical lines, and even present slides—all without ever leaving VS Code.
+
+  By the end of this session, you’ll have a set of best practices and a toolset to transform your live demos from nerve-wracking to confidence-boosting.
+version: 2
+demos:
+  - title: Show the slide
+    description: Show a slide and highlight a function in code.
+    steps:
+      - action: openSlide
+        path: .demo/slides/intro-start.md
+  - title: Show the end slide
+    description: Show the end slide.
+    steps:
+      - action: openSlide
+        path: .demo/slides/intro-end.md
+timer: 50

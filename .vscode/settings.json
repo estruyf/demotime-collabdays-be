@@ -1,0 +1,5 @@
+{
+  "demoTime.defaultFileType": "yaml",
+  "demoTime.customTheme": ".demo/theme/collabdays.css",
+  "editor.formatOnSave": false
+}
