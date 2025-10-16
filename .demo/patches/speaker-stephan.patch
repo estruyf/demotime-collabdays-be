@@ -10,7 +10,7 @@ Index: /session.json
 +    },
 +    {
 +      "fullName": "Stephan van Rooij",
-+      "bio": "Software developer with a strong feeling for security. We sync approx. 6 million events to M365 calendars on a weekly basis.",
++      "bio": "Software developer with a strong feeling for security.",
 +      "accreditation": [ "Microsoft MVP" ]
      }
    ]
