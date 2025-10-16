@@ -1,0 +1,17 @@
+title: The end
+description: Elio and Stephan
+version: 2
+demos:
+  - id: demo-mgt5p8ii-oua2
+    title: Thank you
+    steps:
+      - action: openSlide
+        path: .demo/slides/end.md
+  - id: demo-mgt5qfll-ssfy
+    title: Reset
+    steps:
+      - action: restoreSettings
+      - action: executeScript
+        id: hideBar
+        path: .demo/scripts/show.menubar.scpt
+        command: osascript
