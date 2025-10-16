@@ -1,4 +1,41 @@
 title: Slides
 description: Elio
 version: 2
-demos: []
+demos:
+  - id: demo-mgt6abzm-r90o
+    title: Slides intro
+    steps:
+      - action: setTheme
+        theme: Demo Time Dark
+      - action: openSlide
+        path: .demo/slides/slides.md
+  - id: demo-mgt6ikda-30jt
+    title: Minimal theme
+    steps:
+      - action: close
+      - action: setSetting
+        setting:
+          key: demoTime.customTheme
+          value: null
+      - action: openSlide
+        path: .demo/slides/themes/minimal.md
+  - id: demo-mgt6lqqq-eogx
+    title: Unnamed theme
+    steps:
+      - action: openSlide
+        path: .demo/slides/themes/unnamed.md
+  - id: demo-mgt6obei-60n5
+    title: Custom theme
+    steps:
+      - action: close
+      - action: open
+        path: .demo/theme/collabdays.css
+  - id: demo-mgt6p6ad-05qs
+    title: Slide layouts
+    steps:
+      - action: setSetting
+        setting:
+          key: demoTime.customTheme
+          value: .demo/theme/collabdays.css
+      - action: openSlide
+        path: .demo/slides/slides_layouts.md
