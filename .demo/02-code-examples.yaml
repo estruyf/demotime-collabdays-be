@@ -99,5 +99,6 @@ demos:
       start: debug-step-back
       end: ''
     description: You can restore a file from the latest git version (need help)
+    disabled: true
 engageTime:
   sessionId: 1nbawv
