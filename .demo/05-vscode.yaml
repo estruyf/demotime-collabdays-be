@@ -1,4 +1,70 @@
 title: VS Code examples
 description: Stephan
 version: 2
-demos: []
+demos:
+  - id: demo-mgtb9izf-cojc
+    title: Slides
+    steps:
+      - action: openSlide
+        path: .demo/slides/vscode.md
+    icons:
+      start: device-desktop
+      end: ''
+  - id: demo-mgtbi3u4-7wja
+    title: Open keyboard shortcuts
+    steps:
+      - action: executeVSCodeCommand
+        command: workbench.action.openGlobalKeybindings
+    icons:
+      start: keyboard
+      end: ''
+    description: Open Keyboard shortcut panel by executing the `workbench.action.openGlobalKeybindings` command, or by pressing CTRL+K, CTRL+S
+  - id: demo-mgtbb9h7-1cdl
+    title: Toggle sidebar
+    steps:
+      - action: executeVSCodeCommand
+        command: workbench.action.toggleSidebarVisibility
+    icons:
+      start: layout-sidebar-left
+      end: ''
+    description: There is no show sidebar command
+  - id: demo-mgtbysik-royr
+    title: Close sidebar
+    steps:
+      - action: executeVSCodeCommand
+        command: workbench.action.closeSidebar
+    icons:
+      start: layout-sidebar-left
+      end: ''
+  - id: demo-mgtc4r4w-t1c7
+    title: Open demo file
+    steps:
+      - action: open
+        path: .demo/05-vscode.yaml
+    icons:
+      start: microscope
+      end: ''
+  - id: demo-mgtcg5ml-d455
+    title: Open file and debug
+    steps:
+      - action: open
+        path: index.js
+      - action: positionCursor
+        path: index.js
+        position: '12'
+        highlightWholeLine: true
+      - action: waitForTimeout
+        timeout: 200
+      - action: executeVSCodeCommand
+        command: editor.debug.action.toggleBreakpoint
+      - action: pause
+      - action: executeVSCodeCommand
+        command: workbench.action.debug.start
+      - action: pause
+      - action: executeVSCodeCommand
+        command: workbench.action.debug.stop
+      - action: close
+      - action: executeVSCodeCommand
+        command: workbench.debug.action.toggleRepl
+engageTime:
+  sessionId: 1nbawv
