@@ -8,4 +8,5 @@
   "editor.hover.enabled": false,
   "workbench.colorTheme": "Demo Time Dark",
   "demoTime.customTheme": ".demo/theme/collabdays.css",
+  "demoTime.api.enabled": true
 }

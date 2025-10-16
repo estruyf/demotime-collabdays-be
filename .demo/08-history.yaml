@@ -1,4 +1,11 @@
 title: History of Demo Time
 description: Elio and Stephan
 version: 2
-demos: []
+demos:
+  - id: demo-mgt8v0ao-o1fo
+    title: The origin story
+    steps:
+      - action: setTheme
+        theme: Demo Time Dark (no italic)
+      - action: openSlide
+        path: .demo/slides/history.md

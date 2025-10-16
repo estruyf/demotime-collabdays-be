@@ -2,6 +2,12 @@ title: The end
 description: Elio and Stephan
 version: 2
 demos:
+  - id: demo-mgt99oyi-d7r5
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        pollId: 2pxrhx
+        startOnOpen: true
   - id: demo-mgt5p8ii-oua2
     title: Thank you
     steps:
@@ -15,3 +21,5 @@ demos:
         id: hideBar
         path: .demo/scripts/show.menubar.scpt
         command: osascript
+engageTime:
+  sessionId: 1nbawv

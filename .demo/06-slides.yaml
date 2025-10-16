@@ -2,6 +2,12 @@ title: Slides
 description: Elio
 version: 2
 demos:
+  - id: demo-mgt7rs2h-5noz
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        pollId: 74x2cy
+        startOnOpen: true
   - id: demo-mgt6abzm-r90o
     title: Slides intro
     steps:
@@ -39,3 +45,5 @@ demos:
           value: .demo/theme/collabdays.css
       - action: openSlide
         path: .demo/slides/slides_layouts.md
+engageTime:
+  sessionId: 1nbawv

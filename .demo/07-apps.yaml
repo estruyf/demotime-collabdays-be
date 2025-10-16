@@ -1,4 +1,34 @@
 title: Config and external apps
 description: Elio
 version: 2
-demos: []
+demos:
+  - id: demo-mgt7t4yg-2g7d
+    title: Show panel
+    steps:
+      - action: executeVSCodeCommand
+        command: demo-time.focus
+  - id: demo-mgt7ujj8-hcwq
+    title: Overview
+    steps:
+      - action: executeVSCodeCommand
+        command: demo-time.showOverview
+  - id: demo-mgt7vk2t-y46d
+    title: Config
+    steps:
+      - action: open
+        path: .demo/07-apps.yaml
+  - id: demo-mgt7wom4-8xzs
+    title: Integrations
+    steps:
+      - action: openSlide
+        path: .demo/slides/integrations.md
+  - id: demo-mgt8i2vd-xede
+    title: Presenter view
+    steps:
+      - action: executeVSCodeCommand
+        command: demo-time.showPresenterView
+  - id: demo-mgt8iyy8-1t5v
+    title: Remote control
+    steps:
+      - action: openWebsite
+        url: https://remote.demotime.show
