@@ -1,5 +1,13 @@
 {
   "demoTime.defaultFileType": "yaml",
   "demoTime.customTheme": ".demo/theme/collabdays.css",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "demoTime.highlightBorderColor": "transparent",
+  "demoTime.highlightBackground": "rgba(19, 142, 151, 0.2)",
+  "demoTime.highlightOpacity": 0.5,
+  "demoTime.highlightBlur": 5,
+  "editor.hover.enabled": false,
+  "workbench.colorTheme": "Demo Time Light (no italic)",
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 25
 }

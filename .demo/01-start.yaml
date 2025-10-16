@@ -1,4 +1,4 @@
-title: From Messy Live Coding to Demo Time Mastery
+title: Start
 description: Elio
 version: 2
 demos:
@@ -17,6 +17,13 @@ demos:
         theme: Demo Time Dark (no italic)
       - action: openSlide
         path: .demo/slides/intro.md
+  - id: demo-mgt5gukp-8stp
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        startOnOpen: true
+        pollId: 6y9vr6
+    description: What is the task you are afraid off during demos?
   - title: Quick demo
     steps:
       - action: setTheme
@@ -101,35 +108,5 @@ demos:
         position: '10:12'
         highlightWholeLine: true
         zoom: 5
-  - title: Code examples
-    description: Stephan
-    steps: []
-  - title: File examples
-    description: Stephan
-    steps: []
-  - title: Terminal examples
-    description: Stephan (Elio, je kan ook dit en dit doen)
-    steps: []
-  - title: VS code commands examples
-    description: Stephan
-    steps: []
-  - title: Slides
-    description: Stephan
-    steps: []
-  - title: The features of Demo Time (GH Actions - instruction file toevoegen met info van CollabDays Belgium)
-    description: Elio
-    steps: []
-  - title: External apps (PowerPoint, EngageTime)
-    description: Elio
-    steps: []
-  - title: History
-    description: Elio and Stephan
-    steps: []
-  - id: demo-mgrs2ajs-jgw8
-    title: 'Poll: Welke feature vinden jullie het beste?'
-    steps: []
-  - title: The end
-    description: Elio and Stephan
-    steps: []
 engageTime:
   sessionId: 1nbawv

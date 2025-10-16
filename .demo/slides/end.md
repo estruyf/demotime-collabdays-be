@@ -3,26 +3,6 @@ theme: default
 layout: intro
 ---
 
-# From Messy Live Coding to Demo Time Mastery
-
-Elio Struyf, Stephan van Rooij
-
----
-layout: image
-image: .demo/assets/sponsors.png
----
-
----
----
-
-# This is the title
-
-This is just some content
-
----
-layout: intro
----
-
 # Thank you!
 
 <style>

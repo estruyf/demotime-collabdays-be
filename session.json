@@ -1,10 +1,9 @@
 {
   "session": "From Messy Live Coding to Demo Time Mastery",
-
   "speakers": [
     {
       "fullName": "Elio Struyf",
-      "bio": "Elio Struyf is a Cloud Advocate at Microsoft, focusing on developer tools and practices.",
+      "bio": "Elio Struyf is an award-winning Engineering Lead with over a decade of experience in information technology. He is a ten-time Microsoft MVP, four-time GitHub Star, and three-time Google Developer Expert. Elio is a respected speaker at major tech events across Europe, sharing his expertise in Microsoft 365, DevOps, Testing, and Cloud technologies. He maintains various open-source projects like for example Demo Time and Front Matter CMS.",
       "accreditation": [ "GitHub Star", "Microsoft MVP", "Google Developer Expert" ]
     },
     {
