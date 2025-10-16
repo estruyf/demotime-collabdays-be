@@ -1,4 +1,71 @@
 title: File examples
 description: Stephan
 version: 2
-demos: []
+demos:
+  - id: demo-mgt7jzpm-1mre
+    title: Slide files
+    steps:
+      - action: openSlide
+        path: .demo/slides/files.md
+    icons:
+      start: device-desktop
+      end: ''
+    description: Introduction to file actions
+  - id: demo-mgt7zrqb-u7wb
+    title: Creating a file
+    steps:
+      - action: open
+        path: session.json
+      - action: waitForTimeout
+        timeout: 100
+      - action: executeVSCodeCommand
+        command: workbench.files.action.showActiveFileInExplorer
+      - action: waitForTimeout
+        timeout: 200
+        disabled: true
+      - action: closeAll
+      - action: waitForTimeout
+        timeout: 2000
+      - action: create
+        path: index.js
+        contentPath: .demo/files/index.js
+      - action: open
+        path: index.js
+    icons:
+      start: file-add
+      end: ''
+    description: Creating a file from a pre-created file
+  - id: demo-mgt8glkx-t5jr
+    title: Rename a file
+    steps:
+      - action: rename
+        path: index.js
+        dest: main.js
+    icons:
+      start: file-symlink-directory
+      end: ''
+    description: Rename index.js to main.js
+  - id: demo-mgt8lj69-nmna
+    title: Delete file
+    steps:
+      - action: deleteFile
+        path: main.js
+      - action: waitForTimeout
+        timeout: 2000
+      - action: executeVSCodeCommand
+        command: workbench.action.closeSidebar
+    icons:
+      start: trash
+      end: ''
+  - id: demo-mgt8pdti-qv4p
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        pollId: mnh6pd
+        startOnOpen: true
+    icons:
+      start: question
+      end: ''
+    description: Have you ever accidentally remove a required file?
+engageTime:
+  sessionId: 1nbawv

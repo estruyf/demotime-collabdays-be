@@ -1,4 +1,76 @@
 title: Terminal examples
 description: Stephan
 version: 2
-demos: []
+demos:
+  - id: demo-mgta7i79-tm53
+    title: Terminal slides
+    steps:
+      - action: create
+        path: index.js
+        contentPath: .demo/files/index.js
+      - action: openSlide
+        path: .demo/slides/terminal.md
+    icons:
+      start: device-desktop
+      end: ''
+  - id: demo-mgtazs3q-38qo
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        pollId: xyont5
+        startOnOpen: true
+      - action: pause
+        disabled: false
+      - action: closeEngageTimePoll
+        pollId: xyont5
+        disabled: false
+    description: How good are you with memorizing the terminal commands to run?
+    icons:
+      start: question
+      end: ''
+  - id: demo-mgta9rti-jfzv
+    title: Show terminal
+    steps:
+      - action: openTerminal
+        terminalId: demo-dir
+    icons:
+      start: terminal
+      end: ''
+  - id: demo-mgtaays1-ofsj
+    title: List files
+    steps:
+      - action: executeTerminalCommand
+        terminalId: demo-dir
+        command: ls
+        insertTypingMode: character-by-character
+        insertTypingSpeed: 80
+        autoExecute: true
+  - id: demo-mgtacuzh-aom2
+    title: Node command
+    steps:
+      - action: openTerminal
+        terminalId: demo-node
+      - action: waitForTimeout
+        timeout: 500
+      - action: executeTerminalCommand
+        command: node index.js
+        insertTypingMode: character-by-character
+        terminalId: demo-node
+        autoExecute: true
+        insertTypingSpeed: 60
+    icons:
+      start: code
+      end: ''
+  - id: demo-mgtak4fe-5qud
+    title: Close terminal
+    steps:
+      - action: closeTerminal
+        terminalId: demo-dir
+      - action: pause
+      - action: closeTerminal
+        terminalId: demo-node
+    icons:
+      start: close
+      end: ''
+engageTime:
+  sessionId: 1nbawv
