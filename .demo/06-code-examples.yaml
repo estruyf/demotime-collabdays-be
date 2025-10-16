@@ -1,0 +1,103 @@
+title: 6 - Code Examples
+description: ''
+version: 2
+demos:
+  - id: demo-mgrwfwe5-btfo
+    title: Slides code
+    steps:
+      - action: openSlide
+        path: .demo/slides/code.md
+    icons:
+      start: device-desktop
+      end: ''
+  - id: demo-mgrwo45b-n2ay
+    title: Poll
+    steps:
+      - action: showEngageTimePoll
+        pollId: qmlb2p
+        startOnOpen: true
+    description: How good are you with typing on stage?
+    icons:
+      start: question
+      end: ''
+  - id: demo-mgrugtdva-69v8
+    title: Show code
+    steps:
+      - action: open
+        path: session.json
+    icons:
+      start: code
+      end: ''
+    description: Open the session.json file
+  - id: demo-mgruduczd-kaxw
+    title: Highlight code 1
+    steps:
+      - action: highlight
+        path: session.json
+        position: '2:2'
+        highlightWholeLine: true
+    icons:
+      start: file-code
+      end: ''
+    description: Highlight line
+  - id: demo-mgrvxwkp-r03f
+    title: Insert code
+    steps:
+      - action: insert
+        path: session.json
+        position: '3'
+        content: |2-
+            "event": "Collab Days Belgium 2025",
+            "date": "2025-10-18",
+        highlightWholeLine: false
+        insertTypingMode: line-by-line
+        insertTypingSpeed: 1000
+    icons:
+      start: plus
+      end: ''
+    description: Inserting code with ease
+  - id: demo-mgrvex2n-37s7
+    title: Remove code
+    steps:
+      - action: delete
+        path: session.json
+        position: '3:4'
+        highlightWholeLine: true
+    icons:
+      start: remove
+      end: ''
+    description: Removing specific lines of code
+  - id: demo-mgrvs3pjc-kx29
+    title: Highlight code 2 bio
+    steps:
+      - action: highlight
+        path: session.json
+        highlightWholeLine: false
+        position: '10:14'
+    icons:
+      start: file-code
+      end: ''
+    description: Highlight multiple lines
+  - id: demo-mgrv5thy1-ltpq
+    title: Typing
+    steps:
+      - action: positionCursor
+        path: session.json
+        position: 12,68
+        highlightWholeLine: true
+      - action: typeText
+        content: ' We sync approx. 6 million events to M365 calendars on a weekly basis.'
+        insertTypingSpeed: 42
+    icons:
+      start: pencil
+      end: ''
+    description: Set the cursor anywhere in the document and start inputting text
+  - id: demo-mgrwvqg8-cipw
+    title: Reset file with Git
+    steps: []
+    icons:
+      start: debug-step-back
+      end: ''
+    description: You can restore a file from the latest git version (need help)
+engageTime:
+  sessionId: 1nbawv
