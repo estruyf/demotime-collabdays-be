@@ -97,12 +97,32 @@ demos:
     title: Who are we
     description: Elio en Stephan
     steps:
+      - action: create
+        path: /session.json
+        contentPath: /.demo/snapshots/session.snapshot.json
+      - action: open
+        path: /session.json
+      - action: applyPatch
+        path: /session.json
+        contentPath: /.demo/snapshots/session.snapshot.json
+        patch: /.demo/patches/speaker-elio.patch
+        insertTypingMode: character-by-character
+        insertTypingSpeed: 5
+      - action: save
       - action: highlight
         path: session.json
         position: '5:7'
         highlightWholeLine: true
         zoom: 5
       - action: pause
+      - action: unselect
+      - action: applyPatch
+        path: /session.json
+        contentPath: /.demo/snapshots/session2.snapshot.json
+        patch: /.demo/patches/speaker-stephan.patch
+        insertTypingMode: character-by-character
+        insertTypingSpeed: 5
+      - action: save
       - action: highlight
         path: session.json
         position: '10:12'

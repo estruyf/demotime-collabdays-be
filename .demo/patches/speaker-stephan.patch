@@ -1,0 +1,17 @@
+Index: /session.json
+===================================================================
+--- /session.json
++++ /session.json
+@@ -4,7 +4,12 @@
+     {
+       "fullName": "Elio Struyf",
+       "bio": "Elio Struyf is an award-winning Engineering Lead with over a decade of experience in information technology. He is a ten-time Microsoft MVP, four-time GitHub Star, and three-time Google Developer Expert. Elio is a respected speaker at major tech events across Europe, sharing his expertise in Microsoft 365, DevOps, Testing, and Cloud technologies. He maintains various open-source projects like for example Demo Time and Front Matter CMS.",
+       "accreditation": [ "GitHub Star", "Microsoft MVP", "Google Developer Expert" ]
++    },
++    {
++      "fullName": "Stephan van Rooij",
++      "bio": "Software developer with a strong feeling for security. We sync approx. 6 million events to M365 calendars on a weekly basis.",
++      "accreditation": [ "Microsoft MVP" ]
+     }
+   ]
+ }
