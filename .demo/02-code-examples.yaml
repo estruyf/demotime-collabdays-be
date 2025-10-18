@@ -83,7 +83,7 @@ demos:
     steps:
       - action: positionCursor
         path: session.json
-        position: 12,68
+        position: 11,68
         highlightWholeLine: true
       - action: typeText
         content: ' We sync approx. 6 million events to M365 calendars on a weekly basis.'

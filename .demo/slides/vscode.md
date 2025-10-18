@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# VSCode commands
+# VS Code commands
 
 ---
 layout: image-right
